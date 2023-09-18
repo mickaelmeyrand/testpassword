@@ -1,0 +1,253 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "UTUC-AT1",
+      "Path": "https://rcpocemea.s3.eu-west-3.amazonaws.com/MUV-UTUC-AT1-01/images",
+      "Width": 94576,
+      "Height": 35818,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "TMA | Urothelial Carcinoma ",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "Explore-create your channel-groups",
+          "Description": "To explore different channel-groups, toggle the options listed in the right column and select *Explore-create your group*. \n\nIn this group, by default, Hoechst is in Blue, AF(Autofluorescence) in white and all other channels/markers deactivated. \n\nAdd to this group several other markers of your choice by clicking the gear icon in the upper right corner of the legend and then by clicking on the target icon(circle with a cross) and on the markers of your choice. \n\nYou can turn OFF/ON the desired channels by clicking on the eye symbol next to each individual marker/channel. Colors are customizable for each individual channel (by default the additional markers you add are in black color so all colors must be modified. \n\nCreate as many new groupsas you want(*Explore-create your group (1)(2)(3)...*).",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "General View",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.3408496870241922,
+          "Pan": [
+            1.3006323294296862,
+            0.49497504348108745
+          ],
+			"Lensing": {
+                "Group": "H&E",
+                "Rad": 150
+                    }
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_16__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "TIGIT",
+      "Path": "TIGIT_8__TIGIT"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD3e",
+      "Path": "CD3e_11__CD3e"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD4",
+      "Path": "CD4_7__CD4"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_9__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD20",
+      "Path": "CD20_15__CD20"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD31",
+      "Path": "CD31_2__CD31"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD68",
+      "Path": "CD68_4__CD68"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_5__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "FOXP3",
+      "Path": "FOXP3_14__FOXP3"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki-67",
+      "Path": "Ki-67_3__Ki-67"
+    },
+    {
+      "Rendered": false,
+      "Name": "LAG3",
+      "Path": "LAG3_12__LAG3"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-1",
+      "Path": "PD-1_13__PD-1"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_10__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF2",
+      "Path": "AF2_6__AF2"
+    },
+	{
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "General View",
+      "Colors": [
+        "0000ff",
+        "ffffff",
+        "00ff00",
+        "ff0000",
+        "ff00ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "Pan-CK",
+        "TIGIT",
+        "CD3e"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+	{
+      "Name": "Explore-create your group",
+      "Colors": [
+        "0000ff",
+		"ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+		"AF1"
+      ],
+      "Descriptions": [
+        "",
+		""
+      ]
+    },
+    {
+      "Name": "List-do not use",
+      "Colors": [
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000",
+        "000000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD3e",
+        "CD4",
+        "CD8a",
+        "CD20",
+        "CD31",
+        "CD68",
+        "CD163",
+        "FOXP3",
+        "Ki-67",
+        "LAG3",
+        "Pan-CK",
+        "PD-1",
+        "PD-L1",
+        "TIGIT",
+        "AF1",
+        "AF2"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+	{
+      "Name": "H&E",
+      "Colors": [
+        "ffffff"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
+    } 
+  ]
+}
